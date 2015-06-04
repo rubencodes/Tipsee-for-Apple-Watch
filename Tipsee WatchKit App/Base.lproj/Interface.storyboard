@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Tipsee_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.10000000000000001" alignment="center" id="006-Pz-4dU">
+                            <items>
+                                <label width="1" height="1" alignment="left" text="Current Total?" textAlignment="center" id="YtQ-QI-EUy">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="0.90000000000000002" alignment="left" layout="vertical" id="eSo-5E-XwY">
+                            <items>
+                                <group width="1" height="0.25" alignment="left" id="1TG-7x-SoT">
+                                    <items>
+                                        <button width="0.3333333" height="1" alignment="left" title="1" id="JMw-5d-hqw">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="one" destination="AgC-eL-Hgc" id="onS-MS-aoj"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="left" title="2" id="Xd9-Qg-0Ub">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="two" destination="AgC-eL-Hgc" id="Pxd-jQ-9gj"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="left" title="3" id="00g-nd-UeU">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="three" destination="AgC-eL-Hgc" id="nsm-pJ-72Y"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.25" alignment="left" id="nwv-4e-rEE">
+                                    <items>
+                                        <button width="0.3333333" height="1" alignment="left" title="4" id="JaO-Lc-l6p">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="four" destination="AgC-eL-Hgc" id="9xy-Xx-WIN"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="left" title="5" id="ykN-kO-AhB">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="five" destination="AgC-eL-Hgc" id="nbg-R8-rJf"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="left" title="6" id="XC2-b4-A8N">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="six" destination="AgC-eL-Hgc" id="N3b-jL-74l"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.25" alignment="left" id="SbM-cn-4sd">
+                                    <items>
+                                        <button width="0.3333333" height="1" alignment="left" title="7" id="U0Y-gV-wWZ">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="seven" destination="AgC-eL-Hgc" id="RE3-hg-9ZW"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="left" title="8" id="cgw-oF-yU1">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="eight" destination="AgC-eL-Hgc" id="ep6-6m-tUf"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="left" title="9" id="CiH-fV-zkU">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="nine" destination="AgC-eL-Hgc" id="X4w-ob-ehG"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.25" alignment="left" id="HGy-hh-OMo">
+                                    <items>
+                                        <button width="0.3333333" height="1" alignment="left" backgroundImage="Slice 1" id="D0U-ad-bBb">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="backspace" destination="AgC-eL-Hgc" id="xb4-oY-nrs"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="center" title="0" id="AkC-D5-0AP">
+                                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="zero" destination="AgC-eL-Hgc" id="aXB-Tz-d42"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.3333333" height="1" alignment="right" verticalAlignment="bottom" title="Tip" id="ceP-Vl-ztI">
+                                            <color key="backgroundColor" red="0.89411764709999997" green="0.25882352939999997" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="addSaleTransition" destination="AgC-eL-Hgc" id="zSa-Ph-cZm"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="OriginalCostLabel" destination="YtQ-QI-EUy" id="Em0-Qe-CIV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="214"/>
+        </scene>
+        <!--AddSaleViewController-->
+        <scene sceneID="d2R-Mh-ClF">
+            <objects>
+                <controller identifier="AddSaleViewController" id="ajE-a9-Q5E" customClass="AddSaleViewController" customModule="Tipsee_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="hFS-lQ-cNm">
+                            <items>
+                                <label alignment="center" text="What size tip would you like to leave?" textAlignment="center" numberOfLines="0" id="heo-yB-sow"/>
+                                <button width="1" alignment="left" title="10%" id="orZ-6K-eJu">
+                                    <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="ten" destination="ajE-a9-Q5E" id="Du9-qz-L8y"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="15%" id="MUC-og-IGZ">
+                                    <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="fifteen" destination="ajE-a9-Q5E" id="ynI-VV-3uZ"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="20%" id="col-Eu-fSq">
+                                    <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="twenty" destination="ajE-a9-Q5E" id="v2t-tr-2XZ"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="25%" id="f5v-ux-sRd">
+                                    <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="twentyfive" destination="ajE-a9-Q5E" id="yuG-ks-MuV"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="30%" id="ncE-R7-4Vs">
+                                    <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="thirty" destination="ajE-a9-Q5E" id="FAv-bI-8ee"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="35%" id="MWW-BL-vBq">
+                                    <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="thirtyfive" destination="ajE-a9-Q5E" id="Bpw-3T-GYo"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="332" y="273.25"/>
+        </scene>
+        <!--FinalViewController-->
+        <scene sceneID="azF-lG-nCQ">
+            <objects>
+                <controller identifier="FinalViewController" id="M2x-Bi-elY" customClass="FinalViewController" customModule="Tipsee_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="We recommend a $3.00 tip!" textAlignment="center" numberOfLines="0" id="zvu-DZ-vBm"/>
+                        <label width="1" alignment="center" text="Your new total is:" textAlignment="center" id="DfK-8F-Phj"/>
+                        <label width="1" alignment="center" text="$0.00" textAlignment="center" id="Z3B-3y-2iu">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <button width="134" height="38" alignment="center" verticalAlignment="bottom" title="Start Over" id="1FF-Fe-XUa">
+                            <color key="backgroundColor" red="0.0" green="0.73653371710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="startOver" destination="M2x-Bi-elY" id="6PG-Hk-jXT"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="currentCostLabel" destination="Z3B-3y-2iu" id="GYk-Dy-swv"/>
+                        <outlet property="tipLabel" destination="zvu-DZ-vBm" id="0qN-KJ-YTq"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="495" y="164"/>
+        </scene>
+    </scenes>
+</document>

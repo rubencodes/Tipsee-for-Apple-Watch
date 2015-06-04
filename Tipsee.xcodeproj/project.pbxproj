@@ -13,6 +13,15 @@
 		4588B8801AF67BA500EA420E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4588B87F1AF67BA500EA420E /* Images.xcassets */; };
 		4588B8831AF67BA500EA420E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4588B8811AF67BA500EA420E /* LaunchScreen.xib */; };
 		4588B88F1AF67BA500EA420E /* TipseeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588B88E1AF67BA500EA420E /* TipseeTests.swift */; };
+		4588B8991AF6850C00EA420E /* MarckScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4588B8981AF6850C00EA420E /* MarckScript-Regular.ttf */; };
+		4588B8A31AF6905800EA420E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588B8A21AF6905800EA420E /* InterfaceController.swift */; };
+		4588B8A51AF6905800EA420E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4588B8A41AF6905800EA420E /* Images.xcassets */; };
+		4588B8A91AF6905800EA420E /* Tipsee WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4588B8A81AF6905800EA420E /* Tipsee WatchKit App.app */; };
+		4588B8B11AF6905800EA420E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4588B8AF1AF6905800EA420E /* Interface.storyboard */; };
+		4588B8B31AF6905800EA420E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4588B8B21AF6905800EA420E /* Images.xcassets */; };
+		4588B8B61AF6905800EA420E /* Tipsee WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4588B89E1AF6905800EA420E /* Tipsee WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4588B8C01AF690BF00EA420E /* AddSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588B8BE1AF690BF00EA420E /* AddSaleViewController.swift */; };
+		4588B8C11AF690BF00EA420E /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588B8BF1AF690BF00EA420E /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = 4588B8721AF67BA500EA420E;
 			remoteInfo = Tipsee;
 		};
+		4588B8AA1AF6905800EA420E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4588B86B1AF67BA500EA420E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4588B8A71AF6905800EA420E;
+			remoteInfo = "Tipsee WatchKit App";
+		};
+		4588B8B41AF6905800EA420E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4588B86B1AF67BA500EA420E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4588B89D1AF6905800EA420E;
+			remoteInfo = "Tipsee WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4588B8BD1AF6905800EA420E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4588B8B61AF6905800EA420E /* Tipsee WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4588B8731AF67BA500EA420E /* Tipsee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +73,17 @@
 		4588B8881AF67BA500EA420E /* TipseeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipseeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4588B88D1AF67BA500EA420E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4588B88E1AF67BA500EA420E /* TipseeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipseeTests.swift; sourceTree = "<group>"; };
+		4588B8981AF6850C00EA420E /* MarckScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarckScript-Regular.ttf"; sourceTree = "<group>"; };
+		4588B89E1AF6905800EA420E /* Tipsee WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tipsee WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4588B8A11AF6905800EA420E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4588B8A21AF6905800EA420E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4588B8A41AF6905800EA420E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4588B8A81AF6905800EA420E /* Tipsee WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tipsee WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4588B8AE1AF6905800EA420E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4588B8B01AF6905800EA420E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4588B8B21AF6905800EA420E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4588B8BE1AF690BF00EA420E /* AddSaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSaleViewController.swift; sourceTree = "<group>"; };
+		4588B8BF1AF690BF00EA420E /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4588B89B1AF6905800EA420E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +116,8 @@
 			children = (
 				4588B8751AF67BA500EA420E /* Tipsee */,
 				4588B88B1AF67BA500EA420E /* TipseeTests */,
+				4588B89F1AF6905800EA420E /* Tipsee WatchKit Extension */,
+				4588B8AC1AF6905800EA420E /* Tipsee WatchKit App */,
 				4588B8741AF67BA500EA420E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +127,8 @@
 			children = (
 				4588B8731AF67BA500EA420E /* Tipsee.app */,
 				4588B8881AF67BA500EA420E /* TipseeTests.xctest */,
+				4588B89E1AF6905800EA420E /* Tipsee WatchKit Extension.appex */,
+				4588B8A81AF6905800EA420E /* Tipsee WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +149,7 @@
 		4588B8761AF67BA500EA420E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4588B8981AF6850C00EA420E /* MarckScript-Regular.ttf */,
 				4588B8771AF67BA500EA420E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +172,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4588B89F1AF6905800EA420E /* Tipsee WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4588B8BE1AF690BF00EA420E /* AddSaleViewController.swift */,
+				4588B8BF1AF690BF00EA420E /* FinalViewController.swift */,
+				4588B8A21AF6905800EA420E /* InterfaceController.swift */,
+				4588B8A41AF6905800EA420E /* Images.xcassets */,
+				4588B8A01AF6905800EA420E /* Supporting Files */,
+			);
+			path = "Tipsee WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4588B8A01AF6905800EA420E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4588B8A11AF6905800EA420E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4588B8AC1AF6905800EA420E /* Tipsee WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4588B8AF1AF6905800EA420E /* Interface.storyboard */,
+				4588B8B21AF6905800EA420E /* Images.xcassets */,
+				4588B8AD1AF6905800EA420E /* Supporting Files */,
+			);
+			path = "Tipsee WatchKit App";
+			sourceTree = "<group>";
+		};
+		4588B8AD1AF6905800EA420E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4588B8AE1AF6905800EA420E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +220,12 @@
 				4588B86F1AF67BA500EA420E /* Sources */,
 				4588B8701AF67BA500EA420E /* Frameworks */,
 				4588B8711AF67BA500EA420E /* Resources */,
+				4588B8BD1AF6905800EA420E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4588B8B51AF6905800EA420E /* PBXTargetDependency */,
 			);
 			name = Tipsee;
 			productName = Tipsee;
@@ -150,6 +250,39 @@
 			productReference = 4588B8881AF67BA500EA420E /* TipseeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4588B89D1AF6905800EA420E /* Tipsee WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4588B8BA1AF6905800EA420E /* Build configuration list for PBXNativeTarget "Tipsee WatchKit Extension" */;
+			buildPhases = (
+				4588B89A1AF6905800EA420E /* Sources */,
+				4588B89B1AF6905800EA420E /* Frameworks */,
+				4588B89C1AF6905800EA420E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4588B8AB1AF6905800EA420E /* PBXTargetDependency */,
+			);
+			name = "Tipsee WatchKit Extension";
+			productName = "Tipsee WatchKit Extension";
+			productReference = 4588B89E1AF6905800EA420E /* Tipsee WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		4588B8A71AF6905800EA420E /* Tipsee WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4588B8B71AF6905800EA420E /* Build configuration list for PBXNativeTarget "Tipsee WatchKit App" */;
+			buildPhases = (
+				4588B8A61AF6905800EA420E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tipsee WatchKit App";
+			productName = "Tipsee WatchKit App";
+			productReference = 4588B8A81AF6905800EA420E /* Tipsee WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +298,12 @@
 					4588B8871AF67BA500EA420E = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 4588B8721AF67BA500EA420E;
+					};
+					4588B89D1AF6905800EA420E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4588B8A71AF6905800EA420E = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -183,6 +322,8 @@
 			targets = (
 				4588B8721AF67BA500EA420E /* Tipsee */,
 				4588B8871AF67BA500EA420E /* TipseeTests */,
+				4588B89D1AF6905800EA420E /* Tipsee WatchKit Extension */,
+				4588B8A71AF6905800EA420E /* Tipsee WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4588B87E1AF67BA500EA420E /* Main.storyboard in Resources */,
+				4588B8991AF6850C00EA420E /* MarckScript-Regular.ttf in Resources */,
 				4588B8831AF67BA500EA420E /* LaunchScreen.xib in Resources */,
 				4588B8801AF67BA500EA420E /* Images.xcassets in Resources */,
 			);
@@ -202,6 +344,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4588B89C1AF6905800EA420E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4588B8A91AF6905800EA420E /* Tipsee WatchKit App.app in Resources */,
+				4588B8A51AF6905800EA420E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4588B8A61AF6905800EA420E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4588B8B11AF6905800EA420E /* Interface.storyboard in Resources */,
+				4588B8B31AF6905800EA420E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +385,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4588B89A1AF6905800EA420E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4588B8A31AF6905800EA420E /* InterfaceController.swift in Sources */,
+				4588B8C11AF690BF00EA420E /* FinalViewController.swift in Sources */,
+				4588B8C01AF690BF00EA420E /* AddSaleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +402,16 @@
 			isa = PBXTargetDependency;
 			target = 4588B8721AF67BA500EA420E /* Tipsee */;
 			targetProxy = 4588B8891AF67BA500EA420E /* PBXContainerItemProxy */;
+		};
+		4588B8AB1AF6905800EA420E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4588B8A71AF6905800EA420E /* Tipsee WatchKit App */;
+			targetProxy = 4588B8AA1AF6905800EA420E /* PBXContainerItemProxy */;
+		};
+		4588B8B51AF6905800EA420E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4588B89D1AF6905800EA420E /* Tipsee WatchKit Extension */;
+			targetProxy = 4588B8B41AF6905800EA420E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +430,14 @@
 				4588B8821AF67BA500EA420E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4588B8AF1AF6905800EA420E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4588B8B01AF6905800EA420E /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +578,62 @@
 			};
 			name = Release;
 		};
+		4588B8B81AF6905800EA420E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Tipsee_WatchKit_Extension;
+				INFOPLIST_FILE = "Tipsee WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		4588B8B91AF6905800EA420E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Tipsee_WatchKit_Extension;
+				INFOPLIST_FILE = "Tipsee WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		4588B8BB1AF6905800EA420E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tipsee WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4588B8BC1AF6905800EA420E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tipsee WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +659,22 @@
 			buildConfigurations = (
 				4588B8961AF67BA500EA420E /* Debug */,
 				4588B8971AF67BA500EA420E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4588B8B71AF6905800EA420E /* Build configuration list for PBXNativeTarget "Tipsee WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4588B8B81AF6905800EA420E /* Debug */,
+				4588B8B91AF6905800EA420E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4588B8BA1AF6905800EA420E /* Build configuration list for PBXNativeTarget "Tipsee WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4588B8BB1AF6905800EA420E /* Debug */,
+				4588B8BC1AF6905800EA420E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
