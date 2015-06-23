@@ -47,29 +47,29 @@ class ViewController: UIViewController, UINavigationBarDelegate {
     }
     
     @IBAction func addTip(sender: UIButton) {
-        var alert = UIAlertController(title: "Add Tip", message: "What percent tip would you like to add?", preferredStyle: UIAlertControllerStyle.ActionSheet)
+        let alert = UIAlertController(title: "Add Tip", message: "What percent tip would you like to add?", preferredStyle: UIAlertControllerStyle.ActionSheet)
         
-        var tip10 = UIAlertAction(title: "10%", style: UIAlertActionStyle.Default) { (action) -> Void in
+        let tip10 = UIAlertAction(title: "10%", style: UIAlertActionStyle.Default) { (action) -> Void in
             self.presentNewCostWithTip(0.10)
         }
         
-        var tip15 = UIAlertAction(title: "15%", style: UIAlertActionStyle.Default) { (action) -> Void in
+        let tip15 = UIAlertAction(title: "15%", style: UIAlertActionStyle.Default) { (action) -> Void in
             self.presentNewCostWithTip(0.15)
         }
         
-        var tip20 = UIAlertAction(title: "20%", style: UIAlertActionStyle.Default) { (action) -> Void in
+        let tip20 = UIAlertAction(title: "20%", style: UIAlertActionStyle.Default) { (action) -> Void in
             self.presentNewCostWithTip(0.20)
         }
         
-        var tip25 = UIAlertAction(title: "25%", style: UIAlertActionStyle.Default) { (action) -> Void in
+        let tip25 = UIAlertAction(title: "25%", style: UIAlertActionStyle.Default) { (action) -> Void in
             self.presentNewCostWithTip(0.25)
         }
         
-        var tip30 = UIAlertAction(title: "30%", style: UIAlertActionStyle.Default) { (action) -> Void in
+        let tip30 = UIAlertAction(title: "30%", style: UIAlertActionStyle.Default) { (action) -> Void in
             self.presentNewCostWithTip(0.30)
         }
         
-        var tip35 = UIAlertAction(title: "35%", style: UIAlertActionStyle.Default) { (action) -> Void in
+        let tip35 = UIAlertAction(title: "35%", style: UIAlertActionStyle.Default) { (action) -> Void in
             self.presentNewCostWithTip(0.35)
         }
         
